@@ -8,7 +8,14 @@ import { StatusColumn } from '../../components/status-column/status-column';
 
 @Component({
   selector: 'app-applications-board-page',
-  imports: [ApplicationsHeader,SortFilterBar, Board, StatusColumn,ApplicationCardMenu, ApplicationCard ],
+  imports: [
+    ApplicationsHeader,
+    SortFilterBar,
+    Board,
+    StatusColumn,
+    ApplicationCardMenu,
+    ApplicationCard
+  ],
   templateUrl: './applications-board-page.html',
   styleUrl: './applications-board-page.css',
 })

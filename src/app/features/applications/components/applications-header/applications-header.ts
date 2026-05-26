@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, signal } from '@angular/core';
 
 @Component({
   selector: 'app-applications-header',
@@ -6,4 +6,7 @@ import { Component } from '@angular/core';
   templateUrl: './applications-header.html',
   styleUrl: './applications-header.css',
 })
-export class ApplicationsHeader {}
+export class ApplicationsHeader {
+
+  userNotis = signal(15);
+}
